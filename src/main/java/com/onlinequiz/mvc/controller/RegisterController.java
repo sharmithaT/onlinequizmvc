@@ -36,5 +36,3 @@ public class RegisterController {
         return modelAndView;
     }
 }
-
-
