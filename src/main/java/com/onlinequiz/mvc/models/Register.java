@@ -2,6 +2,7 @@ package com.onlinequiz.mvc.models;
 
 public class Register {
 
+
     String firstName;
     String lastName;
     String email;
