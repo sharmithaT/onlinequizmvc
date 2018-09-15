@@ -31,13 +31,29 @@
             -o-background-size: cover;
             background-size: cover;
         }
+        body{
+            background-color: #CCC;
+            margin: 100px;
+        }
+        /*.blink{*/
+            /*font-size: 100px;*/
+            /*color: rgb (0, 137, 226);*/
 
+            /*animation: blink 1s infinite;*/
+        /*}*/
+
+        @keyframes blink{
+            0%{opacity: 1;}
+            75%{opacity: 1;}
+            76%{ opacity: 0;}
+            100%{opacity: 0;}
+        }
 
     </style>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
     <a class="navbar-brand" href="#">QuizzBuzzz</a>
     <ul class="navbar-nav">
@@ -52,7 +68,11 @@
         </li>
 
     </ul>
+    <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+        <a href="/adminLogin"><span class="glyphicon glyphicon-user"></span>Admin Login</a>
 
+    </ul>
 
 </nav>
 
@@ -65,27 +85,29 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1528209396188-1a6559bc0be6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c89f4251f3d055f4835a3d1ebaf9ec53&auto=format&fit=crop&w=1951&q=80')">
+            <div class="carousel-item active" style="background-image: url('https://b1.ro/pictures/2018/07/12/295051.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <%--<h3 class="display-4">First Slide</h3>
                     <p class="lead">This is a description for the first slide.</p>--%>
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ca8d963483559212f18b75c07fb6302f&auto=format&fit=crop&w=1950&q=80')">
+            <div class="carousel-item" style="background-image: url('https://cdn.pixabay.com/photo/2017/03/12/17/54/quiz-2137664__340.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <%--<h3 class="display-4">Second Slide</h3>
                     <p class="lead">This is a description for the second slide.</p>--%>
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('https://source.unsplash.com/O7fzqFEfLlo/1920x1080')">
+            <div class="carousel-item" style="background-image: url('https://natomasunified.org/lga/content/uploads/sites/3/2013/06/aim-for-the-stars.jpg')">
                 <div class="carousel-caption d-none d-md-block">
                     <%--<h3 class="display-4">Third Slide</h3>
                     <p class="lead">This is a description for the third slide.</p>--%>
                 </div>
             </div>
+
         </div>
+        <%--<h4 class="blink">Quizz Buzzz</h4>--%>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>

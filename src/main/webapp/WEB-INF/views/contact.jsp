@@ -9,8 +9,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
         <title>AboutUS</title>
-
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
@@ -22,19 +20,40 @@
 
         <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all">
         <style>
-            p.italic {
-                font-style: italic;
-            }
-
-
-
-            h1 {
+            .center{
                 text-align: center;
-
-
-                color: black;
+            }
+            /*h1{*/
+                /*text-align: center;*/
+                /*text-blink: ;*/
+            /*}*/
+            h4{
+                text-align: center;
+            }
+            .button {
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: #4CAF50;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px #999;
+                position:absolute;
+                right:50%;
             }
 
+            .button:hover {background-color: #3e8e41}
+
+            .button:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
             body, html {
                 height: 100%;
                 margin: 0;
@@ -42,7 +61,7 @@
             }
 
             .hero-image {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://redwoodcoastmusicfestivals.org/wp-content/uploads/2018/07/Contact-us-2.jpg");
                 height: 100%;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -56,7 +75,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                color: white;
+                color: whitesmoke;
             }
 
             .hero-text button {
@@ -74,11 +93,9 @@
                 background-color: #555;
                 color: white;
             }
-            p {color:black;}
 
-            p.ex1 {Mission:none;}
+
         </style>
-
     </head>
     <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -88,30 +105,29 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Login</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+            <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="#">AboutUS</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="#">Contact</a>
             </li>
 
 
         </ul>
     </nav>
-
-    <br><br>
-
-    <h1> Mission </h1>
-    <div>
-        <p class="ex1"> We provide a world-class education for each child in a personal, relevant, and caring environment.  We strive to ensure that individual children feel valued and well prepared academically and socially.  Our mission paves a successful path for each child’s educational journey.</p>
-        <h1> Vision </h1>
-        <div>
-            <p class="ex1">We will continue its tradition as a community of life-long learners.  We will always seek to challenge students, teachers, parents, and other community members to be actively engaged in the learning process.</p>
+    <div class="hero-image">
+        <div class="hero-text">
         </div>
 
+    <br><br><br>
+    <h1>Contact Us! :)</h1>
+    <br><br>
+    <h4>Phone: 2615385134</h4>
+    <br><br>
+    <h4>Email us on quizzbuzzz@gmail.com</h4>
     </div>
     </body>
     </html>
