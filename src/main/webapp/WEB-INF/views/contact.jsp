@@ -23,9 +23,10 @@
             .center{
                 text-align: center;
             }
-            h1{
-                text-align: center;
-            }
+            /*h1{*/
+                /*text-align: center;*/
+                /*text-blink: ;*/
+            /*}*/
             h4{
                 text-align: center;
             }
@@ -53,12 +54,51 @@
                 box-shadow: 0 5px #666;
                 transform: translateY(4px);
             }
+            body, html {
+                height: 100%;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .hero-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://redwoodcoastmusicfestivals.org/wp-content/uploads/2018/07/Contact-us-2.jpg");
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+
+            .hero-text {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: whitesmoke;
+            }
+
+            .hero-text button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: black;
+                background-color: #ddd;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .hero-text button:hover {
+                background-color: #555;
+                color: white;
+            }
 
 
         </style>
     </head>
     <body>
-    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
         <a class="navbar-brand" href="#">QuizzBuzzz</a>
         <ul class="navbar-nav">
@@ -78,13 +118,17 @@
 
         </ul>
     </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+        </div>
 
     <br><br><br>
     <h1>Contact Us! :)</h1>
     <br><br>
-    <h4>Phone: 265385134</h4>
+    <h4>Phone: 2615385134</h4>
     <br><br>
     <h4>Email us on quizzbuzzz@gmail.com</h4>
+    </div>
     </body>
     </html>
 </doctype>
