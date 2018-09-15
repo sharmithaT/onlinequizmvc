@@ -81,7 +81,7 @@
 
     </head>
     <body>
-    <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
         <a class="navbar-brand" href="#">QuizzBuzzz</a>
         <ul class="navbar-nav">
