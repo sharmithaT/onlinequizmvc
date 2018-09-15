@@ -58,7 +58,7 @@
 
             <tr>
                 <td><b>A:</b></td>
-                <td><textarea class="form-control" rows="2" style="width:50%"  name="a" required></textarea></td>
+                <td><form:textarea path="option1" class="form-control" rows="2" style="width:50%"  name="a" ></form:textarea></td>
 
             </tr>
             <tr>
