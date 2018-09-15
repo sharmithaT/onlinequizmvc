@@ -25,4 +25,8 @@ public class HomeController {
     public ModelAndView viewRegister(){
         return new ModelAndView("registeration");
     }
+    @RequestMapping(value="/AdminLog",method = RequestMethod.GET)
+    public ModelAndView viewAdminLogin(){
+        return new ModelAndView("adminLogin");
+    }
 }
